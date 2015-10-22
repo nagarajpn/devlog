@@ -1,0 +1,9 @@
+Adjust brightness:
+https://jamielinux.com/blog/cannot-adjust-screen-brightness-on-fedora/
+
+Install software:
+gcc, emacs
+
+Disable Graphics Card:
+Add 'sudo echo OFF > /sys/kernel/debug/vgaswitcheroo/switch' in /etc/rc.local file
+
